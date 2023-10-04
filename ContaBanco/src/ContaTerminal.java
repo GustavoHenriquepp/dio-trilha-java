@@ -16,8 +16,7 @@ public class ContaTerminal {
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-        System.out
-                .println("Bom dia ! Para a criação de sua conta no nosso banco, primeiro precisamos de alguns dados.");
+        System.out.println("Bom dia ! Para a criação de sua conta no nosso banco, primeiro precisamos de alguns dados.");
 
         System.out.println("Qual é o seu nome ?");
         String nomeCliente = scanner.nextLine();
@@ -31,9 +30,7 @@ public class ContaTerminal {
         System.out.println("E por ultimo, qual seu saldo ?");
         double saldo = scanner.nextDouble();
 
-        System.out.println(
-                "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agencia é " + agencia
-                        + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponivel para saque.");
+        System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agencia é " + agencia + ", conta " + numeroConta + " e seu saldo " + saldo + " já está disponivel para saque.");
 
     }
 }
