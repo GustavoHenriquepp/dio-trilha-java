@@ -6,7 +6,7 @@ public class Contador {
 
         /**
          * <h1>Desafio Controle de Fluxo</h1>
-         * O projeto pede 2 parametros, caso o primeiro seja maior que o segundo, lança
+         * O projeto pede 2 parâmetros, caso o primeiro seja maior que o segundo, lança
          * uma exceção customizada. Caso contrario, o programa roda normalmente e
          * imprime o
          * resultado da subtração do parametroDois e do parametroUm em um loop usando o
