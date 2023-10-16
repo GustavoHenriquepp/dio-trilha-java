@@ -3,6 +3,21 @@ import java.util.Scanner;
 
 public class Contador {
     public static void main(String[] args) throws Exception {
+
+        /**
+         * <h1>Desafio Controle de Fluxo</h1>
+         * O projeto pede 2 parametros, caso o primeiro seja maior que o segundo, lança
+         * uma exceção customizada. Caso contrario, o programa roda normalmente e
+         * imprime o
+         * resultado da subtração do parametroDois e do parametroUm em um loop usando o
+         * for.
+         * 
+         * 
+         * @author Gustavo Henrique
+         * @version 1.0
+         * @since 16/10/2023
+         */
+
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
         System.out.println("Qual seria o primeiro parametro ?");
